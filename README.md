@@ -16,7 +16,7 @@
 
 **A production-ready banking system demonstrating advanced Python OOP, SQLite backend, comprehensive audit trails, and real-time transaction processing.**
 
-[🚀 Live Demo]([#live-demo](https://ledgerapi-gtpxpjeyashd6tadofycb2.streamlit.app/)) • [📋 Features](#-features) • [🛠️ Tech Stack](#️-tech-stack) • [⚙️ Architecture](#️-architecture) • [📦 Installation](#-installation)
+[🚀 Live Demo](https://ledgerapi-gtpxpjeyashd6tadofycb2.streamlit.app/) • [📋 Features](#-features) • [🛠️ Tech Stack](#️-tech-stack) • [⚙️ Architecture](#️-architecture) • [📦 Installation](#-installation)
 
 </div>
 
