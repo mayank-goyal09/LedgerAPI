@@ -388,7 +388,7 @@ st.markdown(
            style="margin: 0 0.8rem; color: #D4AF37; text-decoration: none; font-weight: 600;">
            🌐 GitHub
         </a>
-        <a href="https://linkedin.com/in/mayank-goyal09" target="_blank"
+        <a href="www.linkedin.com/in/mayank-goyal-4b8756363" target="_blank"
            style="margin: 0 0.8rem; color: #D4AF37; text-decoration: none; font-weight: 600;">
            💼 LinkedIn
         </a>
