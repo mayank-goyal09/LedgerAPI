@@ -22,7 +22,7 @@
 
 ---
 
-## 🎯 Overview
+##                                                              🎯 Overview
 
 **LedgerAPI** is a portfolio-ready, enterprise-grade banking system built with **Python OOP principles** and a robust **SQLite backend**. This project showcases professional software architecture, comprehensive audit trails, transaction processing, inter-account transfers, and an intuitive executive dashboard.
 
@@ -48,7 +48,7 @@ Experience the full banking system with:
 
 ---
 
-## ✨ Features
+##                                                                ✨ Features
 
 ### 💳 Account Management
 - Create and manage multiple account types (Savings, Checking, etc.)
@@ -85,7 +85,7 @@ Experience the full banking system with:
 
 ---
 
-## 🛠️ Tech Stack
+##                                                            🛠️ Tech Stack
 
 | Layer | Technology | Purpose |
 |-------|-----------|----------|
@@ -99,7 +99,7 @@ Experience the full banking system with:
 
 ---
 
-## ⚙️ Architecture
+##                                                         ⚙️ Architecture
 
 ```
 LedgerAPI/
@@ -116,7 +116,7 @@ LedgerAPI/
 └── requirements.txt    # Python dependencies
 ```
 
-### Class Hierarchy
+###                                                         Class Hierarchy
 
 ```
 📦 LedgerAPI
@@ -133,7 +133,7 @@ LedgerAPI/
 
 ---
 
-## 📦 Installation
+##                                                        📦 Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -165,7 +165,7 @@ plotly>=5.14.0
 
 ---
 
-## 💻 Usage
+##                                                                💻 Usage
 
 ### Dashboard Operations
 
@@ -195,9 +195,9 @@ plotly>=5.14.0
 
 ---
 
-## 🏗️ Code Examples
+##                                                             🏗️ Code Examples
 
-### Creating an Account
+###                                                            Creating an Account
 ```python
 from bank import Bank
 from account import Account
@@ -206,14 +206,14 @@ bank = Bank()
 bank.create_account("John Doe", "SAVINGS", 5000)
 ```
 
-### Processing a Transfer
+###                                                           Processing a Transfer
 ```python
 bank.transfer(from_account_id="ACC-001", 
               to_account_id="ACC-002", 
               amount=1000)
 ```
 
-### Accessing Audit Trail
+###                                                           Accessing Audit Trail
 ```python
 audit_logs = bank.audit_logger.get_audit_trail()
 for log in audit_logs:
@@ -222,7 +222,7 @@ for log in audit_logs:
 
 ---
 
-## 📊 Database Schema
+##                                                        📊 Database Schema
 
 ### Accounts Table
 ```sql
@@ -236,7 +236,7 @@ CREATE TABLE accounts (
 )
 ```
 
-### Transactions Table
+###                                                      Transactions Table
 ```sql
 CREATE TABLE transactions (
     id TEXT PRIMARY KEY,
@@ -250,16 +250,16 @@ CREATE TABLE transactions (
 
 ---
 
-## 🎨 Features in Action
+##                                                      🎨 Features in Action
 
-### Dashboard Features
+###                                                        Dashboard Features
 - 📊 **Bank Overview**: Total accounts, active accounts, total balance, average balance
 - 💳 **Account Management**: Create, view, and manage accounts
 - 💸 **Transactions**: Deposit, withdraw, and transfer funds
 - 📈 **Analytics**: Visual representation of account data
 - 🔍 **Search**: Find accounts and transactions easily
 
-### Performance
+###                                                          Performance
 - ⚡ Real-time updates
 - 🚀 Fast transaction processing
 - 💾 Efficient database queries
@@ -267,7 +267,7 @@ CREATE TABLE transactions (
 
 ---
 
-## 🔒 Security Features
+##                                                     🔒 Security Features
 
 - ✅ Input validation for all operations
 - ✅ Balance verification before transactions
@@ -278,7 +278,7 @@ CREATE TABLE transactions (
 
 ---
 
-## 📈 Project Statistics
+##                                                    📈 Project Statistics
 
 | Metric | Value |
 |--------|-------|
@@ -290,7 +290,7 @@ CREATE TABLE transactions (
 
 ---
 
-## 🚀 Future Enhancements
+##                                                   🚀 Future Enhancements
 
 - [ ] User authentication system
 - [ ] Interest calculation and compound interest
@@ -338,10 +338,10 @@ MIT License - See [LICENSE](LICENSE) file for details
 ### ⭐ If this project helped you, please give it a star!
 
 ```
-╔════════════════════════════════════════════════════════════════╗
-║          Built with ❤️  and Professional OOP Design           ║
-║              Ready for Production & Portfolio                  ║
-╚════════════════════════════════════════════════════════════════╝
+                                    ╔════════════════════════════════════════════════════════════════╗
+                                    ║          Built with ❤️  and Professional OOP Design           ║
+                                    ║              Ready for Production & Portfolio                  ║
+                                    ╚════════════════════════════════════════════════════════════════╝
 ```
 
 </div>
